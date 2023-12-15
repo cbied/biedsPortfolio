@@ -1,0 +1,88 @@
+{
+    "basic_info": {
+        "name": "Chris Biediger",
+        "titles": [
+            "Web Developer",
+            "Front-end Developer",
+            "World Traveler",
+            "All Around, Nice Guy 😄"
+        ],
+        "social": [
+            {
+                "name": "github",
+                "url": "https://github.com/cbied",
+                "class": "fab fa-github"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/cabiediger/",
+                "class": "fab fa-instagram"
+            }
+        ],
+        "image": "happyCoder.jpg"
+    },
+    "skills": {
+        "icons": [
+            {
+                "name": "HTML 5",
+                "class": "devicon-html5-plain",
+                "level": "95"
+            },
+            {
+                "name": "CSS 3",
+                "class": "devicon-css3-plain",
+                "level": "95"
+            },
+            {
+                "name": "JavaScript",
+                "class": "devicon-javascript-plain",
+                "level": "90"
+            },
+            {
+                "name": "React",
+                "class": "devicon-react-original-wordmark",
+                "level": "80"
+            },
+            {
+                "name": "Redux",
+                "class": "devicon-redux-original",
+                "level": "80"
+            },
+            {
+                "name": "TypeScript",
+                "class": "devicon-typescript-plain",
+                "level": "70"
+            },
+            {
+                "name": "Sass",
+                "class": "devicon-sass-original",
+                "level": "85"
+            },
+            {
+                "name": "Bash",
+                "class": "devicon-bash-plain",
+                "level": "85"
+            },
+            {
+                "name": "Firebase",
+                "class": "devicon-firebase-plain",
+                "level": "65"
+            },
+            {
+                "name": "Node",
+                "class": "devicon-nodejs-plain-wordmark",
+                "level": "65"
+            },
+            {
+                "name": "Express",
+                "class": "devicon-express-original-wordmark",
+                "level": "65"
+            },
+            {
+                "name": "PostgreSQL",
+                "class": "devicon-postgresql-plain-wordmark",
+                "level": "60"
+            }
+        ]
+    }
+}
