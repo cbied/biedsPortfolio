@@ -12,6 +12,8 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var githubUrl = this.props.data.githubUrl;
+      var githubUrlBackend = this.props.data.githubUrlBackend;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -94,6 +96,41 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
+            <div className="modal-github-container">
+              {githubUrl ? (
+                <div className="modal-github">
+                  <a
+                    href={githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href link-href-github"
+                  >
+                    <i
+                      className="devicon-github-original"
+                      style={{ marginBottom: "10px", fontSize: "3rem" }}
+                    ></i>
+                  </a>
+                  <p>Frontend</p>
+                </div>
+              ) : null}
+
+              {githubUrlBackend ? (
+                <div className="modal-github">
+                  <a
+                    href={githubUrlBackend}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href link-href-github"
+                  >
+                    <i
+                      className="devicon-github-original"
+                      style={{ marginBottom: "10px", fontSize: "3rem" }}
+                    ></i>
+                  </a>
+                  <p>Backend</p>
+                </div>
+              ) : null}
+            </div>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

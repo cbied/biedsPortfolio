@@ -324,8 +324,24 @@ header h1 {
 .modal-description {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
-	margin-bottom: 20px;
 	font-size: 12px;
+}
+
+.modal-github-container {
+	display: flex;
+}
+
+.modal-github {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	height: 5rem;
+	margin-right: 2rem;
+}
+
+.link-href-github {
+	height: 5rem;
 }
 
 .awssld__next {

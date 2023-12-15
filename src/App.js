@@ -25,21 +25,16 @@ class App extends Component {
     this.loadResume()
   }
 
-
-
-
-
   loadResume() {
       this.setState({ resumeData: resumeData });
   }
 
   loadSharedData() {
-      this.setState({ sharedData: {...aboutMe} });
-      // document.title = `${this.state.sharedData.basic_info.name}`
+      this.setState({ sharedData: aboutMe });
   }
 
   render() {
-    console.log(this.state)
+    document.title = this.state.sharedData.basic_info?.name + "'s Portfolio"
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />

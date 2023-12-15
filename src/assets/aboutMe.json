@@ -40,7 +40,7 @@
             },
             {
                 "name": "React",
-                "class": "devicon-react-original-wordmark",
+                "class": "devicon-react-original",
                 "level": "80"
             },
             {
@@ -70,17 +70,17 @@
             },
             {
                 "name": "Node",
-                "class": "devicon-nodejs-plain-wordmark",
+                "class": "devicon-nodejs-plain",
                 "level": "65"
             },
             {
                 "name": "Express",
-                "class": "devicon-express-original-wordmark",
+                "class": "devicon-express-original",
                 "level": "65"
             },
             {
                 "name": "PostgreSQL",
-                "class": "devicon-postgresql-plain-wordmark",
+                "class": "devicon-postgresql-plain",
                 "level": "60"
             }
         ]

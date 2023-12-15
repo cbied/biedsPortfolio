@@ -1,7 +1,8 @@
 {
     "basic_info": {
         "description_header": "Hello",
-        "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+        "description": "👋 Hello, I'm Christopher Biediger—a Frontend Developer based in Sneads Ferry, NC. I specialize in crafting user-friendly web applications with a keen focus on seamless experiences. With a solid background in frontend development, I approach each project with precision, aiming to create practical user journeys and clean interfaces.",
+        "description2": "I stay updated on the latest trends, especially within the React ecosystem. Check out my evolving portfolio, showcasing projects in React JS, Node, Firebase, TypeScript, and PostgreSQL. I am actively seeking new opportunities, I'm open to collaborations and excited to contribute to fun projects.",
         "section_name": {
             "about": "About Me",
             "projects": "Projects",
@@ -11,38 +12,45 @@
     },
     "projects": [
         {
-            "title": "Animal Shelter",
-            "startDate": "2020",
-            "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+            "title": "Facial Recognition",
+            "startDate": "2023",
+            "description": "This application allows you to pull any image and, using the Carifai API, it will find the face(s) in the picture. This project has a frontend written in JavaScript and React and a backend written in Node, Express, and uses PostgreSQL for a database.",
             "images": [
-                "images/portfolio/animal-shelter/p1.jpg",
-                "images/portfolio/animal-shelter/p2.jpg"
+                "images/portfolio/face-rec/face-rec-pic1.png",
+                "images/portfolio/face-rec/face-rec-pic2.png"
             ],
-            "url": "",
+            "url": "https://cbied.github.io/face-recognition/",
+            "githubUrl": "https://github.com/cbied/face-recognition",
+            "githubUrlBackend": "https://github.com/cbied/face-recognition-api",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
+                    "class": "devicon-react-plain",
+                    "name": "React"
                 },
                 {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node"
                 },
                 {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
                 }
             ]
         },
         {
-            "title": "Photography",
-            "startDate": "2018",
-            "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+            "title": "Preferred Ecommerce",
+            "startDate": "2023",
+            "description": "This application allows you to pull any image and, using the Carifai API, it will find the face(s) in the picture. This project has a frontend written in JavaScript and React and a backend written in Node, Express, and uses PostgreSQL for a database.",
             "images": [
-                "images/portfolio/photography/p1.jpg",
-                "images/portfolio/photography/p2.jpg"
+                "images/portfolio/ecommerce/ecommerce.png",
+                "images/portfolio/ecommerce/ecommerce2.png"
             ],
-            "url": "https://github.com",
+            "url": "https://stellular-fairy-de4a48.netlify.app/",
+            "githubUrl": "https://github.com/cbied/preferred-ecommerce",
             "technologies": [
                 {
                     "class": "devicon-react-original",
@@ -94,6 +102,22 @@
                 "NgRx",
                 "CI CD",
                 "Agile Scrum Methodology"
+            ]
+        },
+        {
+            "company": "DevMountain Bootcamp",
+            "title": "Front-End Developer",
+            "years": "",
+            "mainTech": [
+                "React"
+            ],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "Redux",
+                "Node",
+                "Express",
+                "PostgreSQL"
             ]
         }
         
