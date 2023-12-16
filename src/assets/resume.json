@@ -42,9 +42,9 @@
             ]
         },
         {
-            "title": "Preferred Ecommerce",
+            "title": "Preferred Ecommerce (PE)",
             "startDate": "2023",
-            "description": "This application allows you to pull any image and, using the Carifai API, it will find the face(s) in the picture. This project has a frontend written in JavaScript and React and a backend written in Node, Express, and uses PostgreSQL for a database.",
+            "description": "This is an ecommerce site that uses Redux/Redux Saga for state management. It manages state for user, the catalog of products, and the users cart. As a backend, Firebase was used. Firebase Auth was used to create a user, login in an exsisting user, and provide functionality to log in from a users Google account. The Firebase database was used to store users information. Stripe was also intergrated into the application so the user can make payments.",
             "images": [
                 "images/portfolio/ecommerce/ecommerce.png",
                 "images/portfolio/ecommerce/ecommerce2.png"
@@ -57,32 +57,45 @@
                     "name": "React"
                 },
                 {
-                    "class": "devicon-javascript-plain",
-                    "name": "JavaScript"
+                    "class": "devicon-redux-original",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
                 }
             ]
         },
         {
-            "title": "3D Object Viewer",
-            "startDate": "2015",
-            "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+            "title": "PE - TypeScript Version",
+            "startDate": "2024",
+            "description": "*** Still under construction *** This project has all of the same features as the previous project but is type safe! TypeScript was added to the componets, Redux, Redux Saga, and the utility files. I will also be adding GraphQL",
             "images": [
-                "images/portfolio/adventure/p1.jpg",
-                "images/portfolio/adventure/p2.jpg"
+                "images/portfolio/ecommerceTS/ecommerceTS.png",
+                "images/portfolio/ecommerceTS/ecommerceTS2.png"
             ],
-            "url": "https://github.com",
+            "url": "https://github.com/cbied/preferred-ecommerce-typescript",
+            "githubUrl": "https://github.com/cbied/preferred-ecommerce-typescript",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
+                    "class": "devicon-react-original",
+                    "name": "React"
                 },
                 {
-                    "class": "devicon-typescript-plain",
+                    "class": "devicon-typescript-original",
                     "name": "TypeScript"
                 },
                 {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "class": "devicon-redux-original",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-graphql-plain",
+                    "name": "GraphQL"
                 }
             ]
         }
