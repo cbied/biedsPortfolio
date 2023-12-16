@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cbied/biedsPortfolio/static/css/main.41b94abe.chunk.css",
+    "main.js": "/cbied/biedsPortfolio/static/js/main.61368f7f.chunk.js",
+    "main.js.map": "/cbied/biedsPortfolio/static/js/main.61368f7f.chunk.js.map",
+    "runtime-main.js": "/cbied/biedsPortfolio/static/js/runtime-main.ead2b15f.js",
+    "runtime-main.js.map": "/cbied/biedsPortfolio/static/js/runtime-main.ead2b15f.js.map",
+    "static/css/2.71fe5322.chunk.css": "/cbied/biedsPortfolio/static/css/2.71fe5322.chunk.css",
+    "static/js/2.399f057b.chunk.js": "/cbied/biedsPortfolio/static/js/2.399f057b.chunk.js",
+    "static/js/2.399f057b.chunk.js.map": "/cbied/biedsPortfolio/static/js/2.399f057b.chunk.js.map",
+    "index.html": "/cbied/biedsPortfolio/index.html",
+    "precache-manifest.25e478e1b4056ba48328fd894241e504.js": "/cbied/biedsPortfolio/precache-manifest.25e478e1b4056ba48328fd894241e504.js",
+    "service-worker.js": "/cbied/biedsPortfolio/service-worker.js",
+    "static/css/2.71fe5322.chunk.css.map": "/cbied/biedsPortfolio/static/css/2.71fe5322.chunk.css.map",
+    "static/css/main.41b94abe.chunk.css.map": "/cbied/biedsPortfolio/static/css/main.41b94abe.chunk.css.map",
+    "static/js/2.399f057b.chunk.js.LICENSE.txt": "/cbied/biedsPortfolio/static/js/2.399f057b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ead2b15f.js",
+    "static/css/2.71fe5322.chunk.css",
+    "static/js/2.399f057b.chunk.js",
+    "static/css/main.41b94abe.chunk.css",
+    "static/js/main.61368f7f.chunk.js"
+  ]
+}
