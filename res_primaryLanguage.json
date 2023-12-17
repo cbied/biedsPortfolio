@@ -1,118 +1,138 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+        "description_header": "Hello",
+        "description": "👋 Hello, I'm Christopher Biediger—a Frontend Developer based in Sneads Ferry, NC. I specialize in crafting user-friendly web applications with a keen focus on seamless experiences. With a solid background in frontend development, I approach each project with precision, aiming to create practical user journeys and clean interfaces.",
+        "description2": "I stay updated on the latest trends, especially within the React ecosystem. Check out my evolving portfolio, showcasing projects in React JS, Node, Firebase, TypeScript, and PostgreSQL. I am actively seeking new opportunities, I'm open to collaborations and excited to contribute to fun projects.",
+        "section_name": {
+            "about": "About Me",
+            "projects": "Projects",
+            "skills": "Skills",
+            "experience": "Experience"
+        }
     },
     "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
+        {
+            "title": "Facial Recognition",
+            "startDate": "2023",
+            "description": "This application allows you to pull any image and, using the Carifai API, it will find the face(s) in the picture. This project has a frontend written in JavaScript and React and a backend written in Node, Express, and uses PostgreSQL for a database.",
+            "images": [
+                "images/portfolio/face-rec/face-rec-pic1.png",
+                "images/portfolio/face-rec/face-rec-pic2.png"
+            ],
+            "url": "https://cbied.github.io/face-recognition/",
+            "githubUrl": "https://github.com/cbied/face-recognition",
+            "githubUrlBackend": "https://github.com/cbied/face-recognition-api",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node"
+                },
+                {
+                    "class": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                }
+            ]
+        },
+        {
+            "title": "Preferred Ecommerce (PE)",
+            "startDate": "2023",
+            "description": "This is an ecommerce site that uses Redux/Redux Saga for state management. It manages state for user, the catalog of products, and the users cart. As a backend, Firebase was used. Firebase Auth was used to create a user, login in an exsisting user, and provide functionality to log in from a users Google account. The Firebase database was used to store users information. Stripe was also intergrated into the application so the user can make payments.",
+            "images": [
+                "images/portfolio/ecommerce/ecommerce.png",
+                "images/portfolio/ecommerce/ecommerce2.png"
+            ],
+            "url": "https://stellular-fairy-de4a48.netlify.app/",
+            "githubUrl": "https://github.com/cbied/preferred-ecommerce",
+            "technologies": [
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-redux-original",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                }
+            ]
+        },
+        {
+            "title": "PE - TypeScript Version",
+            "startDate": "2024",
+            "description": "*** Still under construction *** This project has all of the same features as the previous project but is type safe! TypeScript was added to the componets, Redux, Redux Saga, and the utility files. I will also be adding GraphQL",
+            "images": [
+                "images/portfolio/ecommerceTS/ecommerceTS.png",
+                "images/portfolio/ecommerceTS/ecommerceTS2.png"
+            ],
+            "url": "https://github.com/cbied/preferred-ecommerce-typescript",
+            "githubUrl": "https://github.com/cbied/preferred-ecommerce-typescript",
+            "technologies": [
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-typescript-original",
+                    "name": "TypeScript"
+                },
+                {
+                    "class": "devicon-redux-original",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-graphql-plain",
+                    "name": "GraphQL"
+                }
+            ]
+        }
     ],
     "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
+        {
+            "company": "FedEx",
+            "title": "Front-End Developer",
+            "years": "2 years",
+            "mainTech": [
+                "Angular 8/9/10"
+            ],
+            "technologies": [
+                "JavaScript",
+                "Angular",
+                "RxJS",
+                "NgRx",
+                "CI CD",
+                "Agile Scrum Methodology"
+            ]
+        },
+        {
+            "company": "DevMountain Bootcamp",
+            "title": "Front-End Developer",
+            "years": "",
+            "mainTech": [
+                "React"
+            ],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "Redux",
+                "Node",
+                "Express",
+                "PostgreSQL"
+            ]
+        }
+        
     ]
   }
