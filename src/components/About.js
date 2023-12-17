@@ -8,6 +8,7 @@ class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var email = this.props.sharedBasicInfo.email
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -84,6 +85,9 @@ class About extends Component {
                     {about}
                     <div className="block my-5">
                     {about2}
+                    </div>
+                    <div className="block my-5 wave">
+                      You can contact me here: {email}
                     </div>
                   </div>
                 </div>
