@@ -93,10 +93,6 @@
                     "class": "devicon-firebase-plain",
                     "name": "Firebase"
                 },
-                {
-                    "class": "devicon-graphql-plain",
-                    "name": "GraphQL"
-                }
             ]
         }
     ],

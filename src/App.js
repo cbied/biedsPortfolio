@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import aboutMe from './assets/aboutMe.json';
 import resumeData from './assets/resume.json';
+import ContactForm from "./components/ContactForm";
 
 class App extends Component {
 
@@ -54,6 +55,7 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <ContactForm />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
