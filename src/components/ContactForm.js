@@ -52,13 +52,14 @@ const ContactForm = () => {
  
 
   return (
+    <section id="contact" className="pb-5">
     <Form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
-      className="col-xl-6 w-100"
+      className="col-md-8 mx-auto"
     >
-      <div className="row center mx-auto my-5 w-25">
+      <div className="row center mx-auto my-5 w-50">
       <InputGroup>
         <Form.Control
           type="text"
@@ -69,7 +70,7 @@ const ContactForm = () => {
         />
         </InputGroup>
       </div>
-      <div className="row center mx-auto my-5 w-25">
+      <div className="row center mx-auto my-5 w-50">
       <InputGroup>
         <Form.Control
           type="email"
@@ -80,7 +81,7 @@ const ContactForm = () => {
         />
         </InputGroup>
       </div>
-      <div className="row center mx-auto my-5 w-50">
+      <div className="row center mx-auto my-5 w-75">
       <InputGroup>
         <Form.Control
           as="textarea"
@@ -101,6 +102,7 @@ const ContactForm = () => {
         </Button>
       </div>
     </Form>
+    </section>
   );
 };
 
